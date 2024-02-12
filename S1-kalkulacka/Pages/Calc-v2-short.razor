@@ -1,0 +1,49 @@
+﻿@page "/calc-v2-short"
+
+<h1>Kalkulacka v2</h1>
+<h2>Pracuje se promennym typu short</h2>
+<hr />
+
+<label>Cislo 1:<input @bind="cislo1" /></label>
+<br />
+<label>Cislo 2:<input @bind="cislo2" /></label>
+
+<div class="m-3">
+    <button class="btn btn-primary" style="width: 130px" @onclick="Soucet">Soucet (+)</button>
+    <button class="btn btn-secondary" @onclick="Rozdil">Rozdil (-)</button>
+    <button class="btn btn-secondary" @onclick=" Soucin">Soucin (*)</button>
+    <button class="btn btn-secondary" @onclick=" Podil">Podil  (/)</button>
+</div>
+
+<div>
+    <label>Vysledek:<input @bind="vysledek" readonly /></label>
+</div>
+
+@code {
+    short cislo1;
+    short cislo2;
+    short vysledek;
+
+    /// <summary>
+    /// Soucet 2 promennych
+    /// </summary>
+    private void Soucet()
+    {
+        vysledek = (short)(cislo1 + cislo2);
+    }
+
+    private void Rozdil()
+    {
+        vysledek = (short)(cislo1 - cislo2);
+    }
+
+    private void Soucin()
+    {
+        vysledek = (short)(cislo1 * cislo2);
+    }
+
+    private void Podil()
+    {
+        vysledek = (short)(cislo1 / cislo2);
+    }
+}

@@ -1,0 +1,49 @@
+﻿@page "/calc-v1"
+
+<h1>Kalkulacka v1</h1>
+<h2>Zakladni matematicke operace</h2>
+<hr />
+
+<label>Cislo 1:<input @bind = "cislo1"/></label>
+<br />
+<label>Cislo 2:<input @bind = "cislo2"/></label>
+
+<div class="m-3">
+    <button class="btn btn-primary" style="width: 130px" @onclick="Soucet">Soucet (+)</button>
+    <button class="btn btn-secondary" @onclick="Rozdil">Rozdil (-)</button>
+    <button class="btn btn-secondary" @onclick=" Soucin">Soucin (*)</button>
+    <button class="btn btn-secondary" @onclick=" Podil">Podil  (/)</button>
+</div>
+
+<div>
+    <label>Vysledek:<input @bind="vysledek" readonly/></label>
+</div>
+
+@code {
+    double cislo1;
+    double cislo2;
+    double vysledek;
+
+    /// <summary>
+    /// Soucet 2 promennych
+    /// </summary>
+    private void Soucet()
+    {
+        vysledek = cislo1 + cislo2;
+    }
+
+    private void Rozdil()
+    {
+        vysledek = cislo1 - cislo2;
+    }
+
+    private void Soucin()
+    {
+        vysledek = cislo1 * cislo2;
+    }
+
+    private void Podil()
+    {
+        vysledek = cislo1 / cislo2;
+    }
+}
