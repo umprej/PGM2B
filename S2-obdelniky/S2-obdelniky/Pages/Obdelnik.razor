@@ -1,0 +1,22 @@
+﻿@page "/obdelnik"
+<PageTitle>Obdelnik</PageTitle>
+
+<h3>Obdelnik</h3>
+
+<label>Zadej stranu A:<input @bind-value="obdelnik.StranaA" /></label>
+<br />
+<label>Zadej stranu B:<input @bind-value="obdelnik.StranaB" /></label>
+<br />
+<label>Obsah:<input @bind-value="obdelnik.Obsah"/></label>
+<br/>
+<label>Obsah:<input @bind-value="obdelnik.Uhlopricka" /></label>
+
+<button @onclick="obdelnik.Vypocet">Spocti</button>
+
+
+@code {
+    double sideA;
+    double sideB;
+
+    private Classes.Obdelnik obdelnik = new Classes.Obdelnik();
+}
