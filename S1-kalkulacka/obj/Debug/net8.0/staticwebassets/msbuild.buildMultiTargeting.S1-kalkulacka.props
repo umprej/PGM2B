@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\S1-kalkulacka.props" />
+</Project>

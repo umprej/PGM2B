@@ -9,6 +9,7 @@
 <label>Cislo 2:<input @bind="cislo2" /></label>
 
 <div class="m-3">
+    <button class="btn btn-secondary" @onclick="Rozdil">Rozdil (-)</button>
     <button class="btn btn-primary" style="width: 130px" @onclick="Soucet">Soucet (+)</button>
     <button class="btn btn-secondary" @onclick="Rozdil">Rozdil (-)</button>
     <button class="btn btn-secondary" @onclick=" Soucin">Soucin (*)</button>
@@ -19,17 +20,33 @@
     <label>Vysledek:<input @bind="vysledek" readonly /></label>
 </div>
 
+<div>
+    <label>Kontrola preteceni:<input type="checkbox" @bind="kontrolaPreteceni"></label>
+</div>
+
+
 @code {
     short cislo1;
     short cislo2;
     short vysledek;
+    bool kontrolaPreteceni = false;
 
     /// <summary>
     /// Soucet 2 promennych
     /// </summary>
     private void Soucet()
     {
-        vysledek = (short)(cislo1 + cislo2);
+        if (kontrolaPreteceni)
+        {
+            checked
+            {
+                vysledek = (short)(cislo1 + cislo2);
+            }
+        }
+        else
+        {
+            vysledek = (short)(cislo1 + cislo2);
+        }
     }
 
     private void Rozdil()
