@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("S2-obdelniky")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beeb0794ed4498ed0ec6ddf57fd3c6b2d29a9ba9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+870e25f7c0c6ecce002208d932100936a841840a")]
 [assembly: System.Reflection.AssemblyProductAttribute("S2-obdelniky")]
 [assembly: System.Reflection.AssemblyTitleAttribute("S2-obdelniky")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

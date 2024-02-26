@@ -2057,19 +2057,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP.NSKVD.000\\.nuget\\packages\\": {}
+    "C:\\Users\\umprejan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP.NSKVD.000\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\S2-obdelniky.csproj",
+      "projectUniqueName": "C:\\Users\\umprejan\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\S2-obdelniky.csproj",
       "projectName": "S2-obdelniky",
-      "projectPath": "C:\\Users\\TEMP.NSKVD.000\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\S2-obdelniky.csproj",
-      "packagesPath": "C:\\Users\\TEMP.NSKVD.000\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP.NSKVD.000\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\obj\\",
+      "projectPath": "C:\\Users\\umprejan\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\S2-obdelniky.csproj",
+      "packagesPath": "C:\\Users\\umprejan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\umprejan\\Documents\\PGM2B\\S2-obdelniky\\S2-obdelniky\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TEMP.NSKVD.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\umprejan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

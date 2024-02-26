@@ -1,12 +1,12 @@
 {
   "mainAssemblyName": "S2-obdelniky",
   "resources": {
-    "hash": "sha256-Z4RTOugQMChU1dpBAw1M1NzeGJ7xvZhb5xrgRkhXyT0=",
+    "hash": "sha256-hYPgcBvwOseD4r23gXbivbIM/jogPydkGpv7I4IT6ZM=",
     "jsModuleNative": {
-      "dotnet.native.8.0.2.3788mjqirh.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
+      "dotnet.native.8.0.2.0f97uv9dss.js": "sha256-gPMK16QWoJSTxorlZJqcVtbBRTniIQWlLsJN2O4cJHg="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.2.r1lmfs8vnk.js": "sha256-54KSaoOArNfygQbV+r4B5y3ys53v2tnvFIyZcZiUmi0="
+      "dotnet.runtime.8.0.2.bok056qasf.js": "sha256-54KSaoOArNfygQbV+r4B5y3ys53v2tnvFIyZcZiUmi0="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-C2P+OTYZAJlmqo6rc4heqwvIVVsXIF8MAxC6WRe96Eg="
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-OH3kXneWqQMz6CUSo6POZqIeMqn9+5RR+IgHn5TnIwA=",
       "netstandard.wasm": "sha256-ZOswxXEbR2TmqjpbaBEdgr85Bv1NC4GwOwoJ+oxXM3M=",
       "System.Private.CoreLib.wasm": "sha256-I2w0iHf5nvSQyF1YE1VbgdTzmmz6a4OE6J7vo5wFa/4=",
-      "S2-obdelniky.wasm": "sha256-zXkjtHClsxsoEiAEim/bG71uIz6yTXzeEAqatbqcZ4c="
+      "S2-obdelniky.wasm": "sha256-YbBmT1/XtRiqJWFZGkuPuc+FB2uPThMCYdgheQF3rCU="
     },
     "pdb": {
-      "S2-obdelniky.pdb": "sha256-1qUe2N2MpHJmAXR9ngnDaxgAvmi/Fhd+PpdbpU1XOO0="
+      "S2-obdelniky.pdb": "sha256-vaQfESdBMwwrF6G9RC14cUhJ/8NL0gcKpt9+7PnGmTw="
     }
   },
   "cacheBootResources": true,

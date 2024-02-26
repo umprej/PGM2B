@@ -1,0 +1,17 @@
+﻿<h3>Obdelnik2</h3>
+
+<label>Zadej stranu A:<input @bind-value="obdelnik.StranaA" /></label>
+<br />
+<label>Zadej stranu B:<input @bind-value="obdelnik.StranaB" /></label>
+<br />
+<label>Obsah:<input value="@obdelnik.Obsah" /></label>
+<br />
+<label>Obvod:<input value="@obdelnik.Obvod" /></label>
+<br />
+<label>Obsah:<input value="@obdelnik.Uhlopricka" /></label>
+
+<button @onclick="obdelnik.Vypocet">Spocti</button>
+
+@code {
+    private Classes.Obdelnik obdelnik = new Classes.Obdelnik();
+}
