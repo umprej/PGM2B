@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>Dice</PageTitle>
+
+<h1>Roll the dice!</h1>
+
+<label>
+    How many sides?
+    <input @bind="die.Sides" type="number" min="1" max="120" step="1">
+</label>
+<p>You're rolling with a @die.ToString()!</p>
+
+<input type="button" value="Roll!" @onclick="RollBtnClicked">
+<p>You rolled a <b>@die.currentValue</b>!</p>
+
+@code {
+    Die die = new Die();
+
+    private void RollBtnClicked()
+    {
+        die.currentValue = die.Roll();
+    }
+
+    
+}
